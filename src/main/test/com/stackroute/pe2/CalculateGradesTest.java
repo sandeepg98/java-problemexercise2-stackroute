@@ -7,6 +7,7 @@ import static org.junit.Assert.*;
 public class CalculateGradesTest{
     CalculateGrades ob = new CalculateGrades();;
 
+    //Test to check average of marks
     @Test
     public void givenGradesShouldReturnAverage()
     {
@@ -14,6 +15,8 @@ public class CalculateGradesTest{
         assertEquals(81.25,result,0.0);
 
     }
+
+    //Test to check minimum of marks
     @Test
     public void givenGradesShouldReturnMin()
     {
@@ -21,6 +24,8 @@ public class CalculateGradesTest{
         assertEquals(65,result);
 
     }
+
+    //Test to check maximum of marks
     @Test
     public void givenGradesShouldReturnMax()
     {

@@ -15,6 +15,7 @@ public class ReadAndPrintTest {
                               "THIS IS A NEW LINE.", result);
     }*/
 
+    //Com[pare the file sizes
     @Test
     public void givenCorrectFileShouldReturnResult() throws Exception {
         long result = object.readPrint("./test.txt");

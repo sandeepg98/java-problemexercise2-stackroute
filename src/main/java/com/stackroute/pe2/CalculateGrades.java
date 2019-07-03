@@ -1,9 +1,10 @@
 package com.stackroute.pe2;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class CalculateGrades {
+
+    //main function to get input from user
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int numberStudent;
@@ -20,6 +21,7 @@ public class CalculateGrades {
         System.out.println(checkMax(grades));
     }
 
+    //Method to check average
     public static double checkAverage(int grades[])
     {
         double sum=0;
@@ -32,6 +34,7 @@ public class CalculateGrades {
         return average;
     }
 
+    //Method to calculate minimum grades
     public static int checkMin(int grades[])
     {
         int minValue = grades[0];
@@ -46,6 +49,7 @@ public class CalculateGrades {
         return minValue;
     }
 
+    //Method to calculate Maximum grades
     public static int checkMax(int grades[])
     {
         int maxValue = grades[0];

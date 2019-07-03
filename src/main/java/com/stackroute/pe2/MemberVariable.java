@@ -6,6 +6,7 @@ class Member {
     private String name;
     private int age , salary;
 
+    //Getter and setter for name
     public String getName(){
         return name;
     }
@@ -14,6 +15,7 @@ class Member {
         this.name = name;
     }
 
+    //Getter and setter for age
     public int getAge() {
         return age;
     }
@@ -22,6 +24,7 @@ class Member {
         this.age = age;
     }
 
+    //Getter and setter for salary
     public int getSalary() {
         return salary;
     }
@@ -36,10 +39,12 @@ public class MemberVariable {
     public static void main(String[] args){
         Member object = new Member();
 
+        //Set the values of variables
         object.setAge(21);
         object.setName("Sandeep Grover");
         object.setSalary(4);
 
+        //get the values of variables
         System.out.println("Member Name: " + object.getName());
         System.out.println("Member Age: " + object.getAge());
         System.out.println("Member Salary: " + object.getSalary());

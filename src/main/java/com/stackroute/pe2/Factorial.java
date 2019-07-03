@@ -11,6 +11,7 @@ public class Factorial {
         System.out.println(longFactorial(21));
     }
 
+    //Cannot return the factorial of 13 or more as return type(int) can't store the value
     public static int factorial(int input){
         if(input < 13){
             if(input == 0)
@@ -24,6 +25,7 @@ public class Factorial {
         }
     }
 
+    //Cannot return the factorial of 21 or more as return type(long) can't store the value
     public static long longFactorial(int input){
         if(input < 21){
             if(input == 0)
